@@ -1,4 +1,4 @@
-1. Team Infos
+# 1. Team Infos
 
 팀명: 2조
 
@@ -15,24 +15,24 @@
 이수아 20181660 
 
 
-2. 실행환경
+# 2. 실행환경
 
 python_version : 3.6
 
 os:Linux_Ubuntu 16.04.1
 
 
-3. 버전관리
+# 3. 버전관리
 
 git: https://github.com/chomins/xycar_ADproject.git
 
 
-4. 사용모듈
+# 4. 사용모듈
 
 pytesseract
 
 Opencv
 
-5. 발표 자료
+# 5. 발표 자료
 
 창연공AD피피티 최종자료.pdf
