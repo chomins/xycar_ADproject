@@ -34,4 +34,5 @@ pytesseract
 Opencv
 
 5. 발표 자료
+
 창연공AD피피티 최종자료.pdf
