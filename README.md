@@ -24,4 +24,9 @@ os:Linux_Ubuntu 16.04.1
 
 git: https://github.com/chomins/xycar_ADproject.git
 
+4. 사용모듈
+
+pytesseract
+Opencv
+
 
