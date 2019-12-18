@@ -14,7 +14,7 @@ class TrafficSignDetector:
     def __init__(self, topic):
         rospy.init_node('signalDetect')
         rospy.Subscriber(topic, Image, self.conv_image)
-        self.sigPub = rospy.Publisher('signal', String, queuesize=1)
+        self.sigPub = rospy.Publisher('/signal', String, queuesize=1)
 
         self.finds = []
 
@@ -186,19 +186,6 @@ class TrafficSignDetector:
     def __del__(self):
         self.recoder.release()
         cv2.destroyAllWindows()
-
-    # def display_msg(self, signal):
-    #     msgs = [("50", "최저 속도 제한 표지판 인식됨", 35),
-    #             ("30", "최고 속도 제한 표지판 인식됨", 15),
-    #             ("slow", "서행 표지판 인식됨", 15),
-    #             ("child", "어린이 보호 구역 표지판 인식됨", 15),
-    #             ("not", "기본 주행 모드", 25)
-    #             ]
-    #
-    #     for s, msg, speed in msgs:
-    #         if s in signal:
-    #             cv2.putText(self.cam_img, msgs, (40, 400), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 200), thickness=2)
-    #             # cv2.putText(self.cam_img, self.text, (40, 430), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 200), thickness=2)
 
 if __name__ == "__main__":
     rate = rospy.Rate(10)
