@@ -22,18 +22,20 @@ os:Linux_Ubuntu 16.04.1
 git: https://github.com/chomins/xycar_ADproject.git  
 <br/>
 
-# 사용모듈
+# 사용 외부 모듈
 
 pytesseract
 
 Opencv  
 <br/>
 
-# 발표 자료
+# 발표 자료 및 보고서
 
-창연공AD피피티 최종자료.pdf  
+창연공AD피피티 최종자료.pdf
+
+4분반2조 AD 보고서.pdf
+
+표지판 인식 테스트 영상.avi
+
+시연 영상.avi  
 <br/>
-
-# 보고서
-
-4분반2조 AD 보고서.pdf  
