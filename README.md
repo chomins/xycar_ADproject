@@ -9,6 +9,7 @@
 
 2. 실행환경
 python_version : 3.6
+
 os:Linux_Ubuntu 16.04.1
 
 3. 버전관리
