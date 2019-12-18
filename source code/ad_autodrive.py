@@ -13,7 +13,7 @@ class AutoDrive:
 
     def __init__(self):
         rospy.init_node('autodrive')
-        rospy.Subscriber('signal', String, self.detect_signal)
+        rospy.Subscriber('/signal', String, self.detect_signal)
         self.line_detector = LineDetector('/usb_cam/image_raw')
         self.driver = MotorDriver('/xycar_motor_msg')
         self.end_time = -1
